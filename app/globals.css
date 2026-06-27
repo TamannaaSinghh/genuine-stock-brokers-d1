@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Manrope", system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-700 antialiased;
+  font-feature-settings: "ss01", "cv01";
+}
+
+/* Layout container */
+.container-page {
+  @apply mx-auto w-full max-w-container px-5 sm:px-8;
+}
+
+/* Section eyebrow pill */
+.eyebrow {
+  @apply inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-brand-700;
+}
+
+/* Headings use the deep forest green for strong contrast on light bg */
+.h-display {
+  @apply font-display font-semibold tracking-tight text-forest;
+}
+
+/* Gradient green text */
+.text-gradient {
+  @apply bg-gradient-to-r from-brand-600 via-brand-500 to-brand-400 bg-clip-text text-transparent;
+}
+
+/* Primary button */
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3.5 text-sm font-semibold text-white shadow-glow transition-all duration-200 hover:-translate-y-0.5 hover:bg-brand-500;
+}
+
+/* Secondary (outline) button */
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-brand-200 bg-white px-6 py-3.5 text-sm font-semibold text-forest transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-300 hover:bg-brand-50;
+}
+
+/* Reveal-on-scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card hover lift */
+.card-lift {
+  @apply transition-all duration-300;
+}
+.card-lift:hover {
+  @apply -translate-y-1.5 shadow-lift;
+}
+
+/* Soft dotted background (green tint) */
+.bg-dots {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(10, 154, 88, 0.16) 1px,
+    transparent 0
+  );
+  background-size: 26px 26px;
+}
+
+/* Mint mesh gradient background */
+.bg-mesh {
+  background-color: #f5faf7;
+  background-image: radial-gradient(
+      40rem 30rem at 85% -10%,
+      rgba(58, 205, 132, 0.18),
+      transparent 60%
+    ),
+    radial-gradient(
+      36rem 28rem at -5% 10%,
+      rgba(22, 181, 106, 0.12),
+      transparent 55%
+    );
+}
+
+/* Decorative blurred blob */
+.blob {
+  @apply pointer-events-none absolute rounded-full blur-3xl;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #eef6f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #aaf0c8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #72e3a8;
+}
+
+::selection {
+  background: #aaf0c8;
+  color: #06351f;
+}
