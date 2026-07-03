@@ -91,7 +91,7 @@ function Hero() {
         <Reveal delay={200}>
           <div className="relative">
             <div className="absolute -inset-5 rounded-[2.5rem] bg-gradient-to-br from-brand-300/40 to-brand-100/30 blur-2xl" />
-            <div className="relative rounded-[1.75rem] border border-mint-200 bg-white/90 p-6 shadow-soft backdrop-blur-xl">
+            <div className="relative rounded-[1.75rem] border border-mint-200 bg-white p-6 shadow-soft backdrop-blur-xl">
               {/* Ticker header */}
               <div className="flex items-center justify-between border-b border-mint-200 pb-4">
                 <div>

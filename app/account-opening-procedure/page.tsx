@@ -112,7 +112,7 @@ export default function AccountOpeningPage() {
             </Reveal>
 
             <Reveal delay={180}>
-              <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-brand-600 via-brand-700 to-forest p-8 text-white shadow-lift">
+              <div className="relative overflow-hidden rounded-[2rem] bg-brand-800 p-8 text-white shadow-lift">
                 <div className="bg-dots pointer-events-none absolute inset-0 opacity-20" />
                 <h3 className="relative z-10 text-sm font-semibold uppercase tracking-wider text-brand-100">
                   Download forms

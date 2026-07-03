@@ -38,7 +38,7 @@ export default function ContactForm() {
             required
             autoComplete="name"
             placeholder="Your full name"
-            className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+            className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-500 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
           />
         </div>
         <div>
@@ -51,7 +51,7 @@ export default function ContactForm() {
             type="tel"
             autoComplete="tel"
             placeholder="Your phone number"
-            className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+            className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-500 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
           />
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function ContactForm() {
           required
           autoComplete="email"
           placeholder="Enter your email address"
-          className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+          className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-500 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
         />
       </div>
 
@@ -81,7 +81,7 @@ export default function ContactForm() {
           rows={5}
           autoComplete="off"
           placeholder="How can we help you?"
-          className="w-full resize-none rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+          className="w-full resize-none rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-500 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
         />
       </div>
 

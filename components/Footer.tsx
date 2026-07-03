@@ -116,7 +116,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="relative z-10 border-t border-mint-200">
-        <div className="container-page flex flex-col gap-3 py-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+        <div className="container-page flex flex-col gap-3 py-6 text-xs text-slate-600 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {company.legalName}. All rights reserved.
           </p>
