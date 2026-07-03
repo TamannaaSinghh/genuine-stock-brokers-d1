@@ -18,7 +18,7 @@ function Logo() {
     >
       <Image
         src="/logo.png"
-        alt="Genuine Stock Brokers Pvt. Ltd."
+        alt=""
         width={375}
         height={129}
         priority
@@ -117,13 +117,15 @@ export default function Navbar() {
             </a>
             <Link
               href="/account-opening-procedure"
-              className="hidden rounded-full bg-brand-600 px-5 py-2.5 text-[13px] font-semibold text-white shadow-glow transition-all hover:-translate-y-0.5 hover:bg-brand-500 sm:inline-flex"
+              className="hidden rounded-full bg-brand-700 px-5 py-2.5 text-[13px] font-semibold text-white shadow-glow transition-all hover:-translate-y-0.5 hover:bg-brand-600 sm:inline-flex"
             >
               Open Account
             </Link>
             <button
               type="button"
               aria-label="Toggle menu"
+              aria-expanded={open}
+              aria-controls="mobile-menu"
               onClick={() => setOpen((v) => !v)}
               className="grid h-11 w-11 place-items-center rounded-xl border border-mint-200 bg-white text-forest xl:hidden"
             >
@@ -139,6 +141,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
+        id="mobile-menu"
         className={`overflow-hidden border-b border-mint-200 bg-white transition-[max-height] duration-300 xl:hidden ${
           open ? "max-h-[680px] shadow-soft" : "max-h-0"
         }`}
@@ -169,7 +172,7 @@ export default function Navbar() {
             </a>
             <Link
               href="/account-opening-procedure"
-              className="flex-1 rounded-xl bg-brand-600 px-4 py-3 text-center text-[15px] font-semibold text-white"
+              className="flex-1 rounded-xl bg-brand-700 px-4 py-3 text-center text-[15px] font-semibold text-white"
             >
               Open Account
             </Link>

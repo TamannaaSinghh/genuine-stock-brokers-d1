@@ -95,7 +95,7 @@ function Hero() {
               {/* Ticker header */}
               <div className="flex items-center justify-between border-b border-mint-200 pb-4">
                 <div>
-                  <p className="text-xs font-medium text-slate-400">
+                  <p className="text-xs font-medium text-slate-500">
                     Live Market Pulse
                   </p>
                   <p className="font-display text-2xl font-semibold text-forest">
@@ -149,7 +149,7 @@ function Hero() {
                       <span className="text-sm text-slate-600">{r.p}</span>
                       <span
                         className={`text-xs font-bold ${
-                          r.up ? "text-brand-600" : "text-rose-500"
+                          r.up ? "text-brand-700" : "text-rose-700"
                         }`}
                       >
                         {r.c}
@@ -197,7 +197,7 @@ function LogoStrip() {
           {["NSE", "BSE", "ASE", "SEBI Registered"].map((x) => (
             <span
               key={x}
-              className="font-display text-lg font-semibold tracking-wide text-slate-400"
+              className="font-display text-lg font-semibold tracking-wide text-slate-500"
             >
               {x}
             </span>

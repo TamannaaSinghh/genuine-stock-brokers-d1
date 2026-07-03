@@ -14,7 +14,7 @@ export default function Footer() {
           <Link href="/" aria-label="Genuine Stock Brokers — Home" className="inline-flex">
             <Image
               src="/logo.png"
-              alt="Genuine Stock Brokers Pvt. Ltd."
+              alt=""
               width={375}
               height={129}
               className="h-16 w-auto"
@@ -48,9 +48,9 @@ export default function Footer() {
 
         {/* Quick links */}
         <div>
-          <h4 className="text-sm font-bold uppercase tracking-wider text-forest">
+          <h2 className="text-sm font-bold uppercase tracking-wider text-forest">
             Navigate
-          </h4>
+          </h2>
           <ul className="mt-5 space-y-3 text-sm">
             {nav.map((item) => (
               <li key={item.href}>
@@ -67,9 +67,9 @@ export default function Footer() {
 
         {/* Investor info */}
         <div>
-          <h4 className="text-sm font-bold uppercase tracking-wider text-forest">
+          <h2 className="text-sm font-bold uppercase tracking-wider text-forest">
             Investors
-          </h4>
+          </h2>
           <ul className="mt-5 space-y-3 text-sm">
             {investorDocs.map((d) => (
               <li key={d.title}>
@@ -86,7 +86,7 @@ export default function Footer() {
                 href="/downloads"
                 className="text-slate-600 transition-colors hover:text-brand-700"
               >
-                Downloads &amp; Policies
+                Downloads
               </Link>
             </li>
           </ul>
@@ -94,9 +94,9 @@ export default function Footer() {
 
         {/* Contact */}
         <div>
-          <h4 className="text-sm font-bold uppercase tracking-wider text-forest">
+          <h2 className="text-sm font-bold uppercase tracking-wider text-forest">
             Reach us
-          </h4>
+          </h2>
           <ul className="mt-5 space-y-4 text-sm text-slate-600">
             <li className="flex gap-3">
               <svg className="mt-0.5 shrink-0 text-brand-600" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
@@ -125,7 +125,7 @@ export default function Footer() {
             <span>SEBI Reg: {company.sebi}</span>
           </p>
         </div>
-        <div className="container-page pb-6 text-[11px] leading-relaxed text-slate-400">
+        <div className="container-page pb-6 text-[11px] leading-relaxed text-slate-600">
           We don&apos;t give stock tips, and have not authorized anyone to trade
           on behalf of others. Investments in the securities market are subject
           to market risks; read all the related documents carefully before

@@ -51,8 +51,16 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${sans.variable} ${display.variable}`}>
       <body>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-brand-700 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <main id="main-content" tabIndex={-1} className="min-h-screen outline-none">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

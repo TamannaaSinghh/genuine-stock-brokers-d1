@@ -36,8 +36,9 @@ export default function ContactForm() {
             name="name"
             type="text"
             required
+            autoComplete="name"
             placeholder="Your full name"
-            className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+            className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
           />
         </div>
         <div>
@@ -48,8 +49,9 @@ export default function ContactForm() {
             id="phone"
             name="phone"
             type="tel"
+            autoComplete="tel"
             placeholder="Your phone number"
-            className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+            className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
           />
         </div>
       </div>
@@ -63,8 +65,9 @@ export default function ContactForm() {
           name="email"
           type="email"
           required
+          autoComplete="email"
           placeholder="Enter your email address"
-          className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+          className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
         />
       </div>
 
@@ -76,14 +79,15 @@ export default function ContactForm() {
           id="message"
           name="message"
           rows={5}
+          autoComplete="off"
           placeholder="How can we help you?"
-          className="w-full resize-none rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+          className="w-full resize-none rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
         />
       </div>
 
       <button
         type="submit"
-        className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand-600 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/20 transition-transform hover:-translate-y-0.5 hover:bg-brand-500 sm:w-auto"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand-700 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/20 transition-transform hover:-translate-y-0.5 hover:bg-brand-600 sm:w-auto"
       >
         Send enquiry
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="m22 2-7 20-4-9-9-4 20-7z" /></svg>

@@ -116,7 +116,7 @@ export default function DownloadsPage() {
                 className="card-lift group flex items-center justify-between gap-4 rounded-2xl border border-mint-200 bg-white p-6"
               >
                 <span className="font-semibold text-forest">{link.title}</span>
-                <svg className="shrink-0 text-slate-400 transition-colors group-hover:text-brand-600" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17 17 7M7 7h10v10" /></svg>
+                <svg className="shrink-0 text-slate-500 transition-colors group-hover:text-brand-600" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17 17 7M7 7h10v10" /></svg>
               </a>
             </Reveal>
           ))}

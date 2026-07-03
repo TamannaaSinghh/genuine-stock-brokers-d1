@@ -20,7 +20,7 @@ export default function LoginPage() {
           <Link href="/" aria-label="Genuine Stock Brokers — Home" className="inline-flex">
             <Image
               src="/logo.png"
-              alt="Genuine Stock Brokers Pvt. Ltd."
+              alt=""
               width={375}
               height={129}
               className="h-11 w-auto"
@@ -41,8 +41,9 @@ export default function LoginPage() {
                 id="userid"
                 name="userid"
                 type="text"
+                autoComplete="username"
                 placeholder="Enter your user ID"
-                className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+                className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
               />
             </div>
             <div>
@@ -53,13 +54,14 @@ export default function LoginPage() {
                 id="password"
                 name="password"
                 type="password"
+                autoComplete="current-password"
                 placeholder="Enter your password"
-                className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+                className="w-full rounded-xl border border-slate-500 bg-white px-4 py-3 text-sm text-forest outline-none transition-colors placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
               />
             </div>
             <button
               type="submit"
-              className="w-full rounded-xl bg-brand-600 px-6 py-3.5 text-sm font-semibold text-white shadow-glow transition-transform hover:-translate-y-0.5 hover:bg-brand-500"
+              className="w-full rounded-xl bg-brand-700 px-6 py-3.5 text-sm font-semibold text-white shadow-glow transition-transform hover:-translate-y-0.5 hover:bg-brand-600"
             >
               Log in
             </button>

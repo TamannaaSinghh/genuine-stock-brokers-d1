@@ -69,7 +69,7 @@ export default function AccountOpeningPage() {
                 <Reveal key={s.title} delay={i * 80}>
                   <div className="relative flex gap-5 rounded-2xl border border-mint-200 bg-white p-6">
                     <div className="flex flex-col items-center">
-                      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-brand-600 font-display text-lg font-semibold text-white">
+                      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-brand-700 font-display text-lg font-semibold text-white">
                         {i + 1}
                       </span>
                       {i < steps.length - 1 && (
