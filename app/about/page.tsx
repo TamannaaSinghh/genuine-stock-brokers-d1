@@ -111,7 +111,7 @@ export default function AboutPage() {
       {/* Growth story */}
       <MediaBand
         src="/3.jpg"
-        alt="A young green sprout growing — symbolising steady growth"
+        alt=""
         eyebrow="Our growth"
         title="From a team of 5 to over 200 — and growing."
         paragraphs={[

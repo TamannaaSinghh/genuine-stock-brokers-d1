@@ -151,7 +151,7 @@ export default function AccountOpeningPage() {
       {/* Investing image band */}
       <MediaBand
         src="/6.jpg"
-        alt="A coin being dropped into a piggy bank"
+        alt=""
         eyebrow="Start investing"
         title="Your account is the first step to the markets."
         paragraphs={[

@@ -16,7 +16,7 @@ export default function LoginPage() {
       <div className="blob -bottom-24 left-0 h-96 w-96 bg-brand-200/40" />
 
       <div className="relative z-10 w-full max-w-md">
-        <div className="rounded-[1.75rem] border border-mint-200 bg-white p-8 shadow-soft backdrop-blur-xl">
+        <div className="rounded-[1.75rem] border border-mint-200 bg-white p-8 shadow-soft">
           <Link href="/" aria-label="Genuine Stock Brokers — Home" className="inline-flex">
             <Image
               src="/logo.png"

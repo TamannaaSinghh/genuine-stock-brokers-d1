@@ -76,7 +76,7 @@ export default function CareersPage() {
       {/* Workplace image band */}
       <MediaBand
         src="/4.jpg"
-        alt="Modern city office towers"
+        alt=""
         eyebrow="Where you'll work"
         title="A vibrant environment that rewards performance."
         paragraphs={[

@@ -129,7 +129,7 @@ export default function ContactPage() {
           <div className="relative mt-12 aspect-[21/9] overflow-hidden rounded-3xl shadow-soft ring-1 ring-mint-200">
             <Image
               src="/5.jpg"
-              alt="Modern financial-district office towers"
+              alt=""
               fill
               sizes="100vw"
               className="object-cover"

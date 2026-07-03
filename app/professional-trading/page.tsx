@@ -106,7 +106,7 @@ export default function ProfessionalTradingPage() {
       {/* Markets image band */}
       <MediaBand
         src="/1.jpg"
-        alt="A tablet displaying a live stock market chart"
+        alt=""
         eyebrow="Momentum & trends"
         title="Reading the market, one move at a time."
         paragraphs={[
