@@ -23,14 +23,14 @@ export default function PageHero({
       <div className="container-page relative z-10 py-14 sm:py-16">
         <Reveal>
           <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500">
-            <Link href="/" className="hover:text-brand-700">
+            <Link href="/" className="underline underline-offset-2 hover:text-brand-700">
               Home
             </Link>
             {crumbs.map((c) => (
               <span key={c.label} className="flex items-center gap-2">
                 <span className="text-slate-300">/</span>
                 {c.href ? (
-                  <Link href={c.href} className="hover:text-brand-700">
+                  <Link href={c.href} className="underline underline-offset-2 hover:text-brand-700">
                     {c.label}
                   </Link>
                 ) : (

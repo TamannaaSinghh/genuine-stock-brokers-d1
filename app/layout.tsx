@@ -3,6 +3,7 @@ import { Manrope, Fraunces } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AccessibilityWidget from "@/components/AccessibilityWidget";
 import { company } from "@/lib/site";
 
 const sans = Manrope({
@@ -62,6 +63,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <AccessibilityWidget />
       </body>
     </html>
   );
